@@ -7,20 +7,50 @@
     <meta name="description" content="Descomplicando seus direitos">
     <title>Resolve Aí</title>
     <style>
-        body {
-            margin: 0;
-            overflow: hidden;
+        :root {
+            --principal: #656565;
+            --secundaria: #00ffa3;
         }
-      
-        iframe {
-            border: 0;
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
             padding: 0;
             width: 100vw;
             height: 100vh;
+            overflow: hidden;
+            background-color: var(--principal);
+        }
+
+        div.button a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 47px;
+            width: 141px;
+            padding: 20px;
+            border-radius: 35px;
+            text-decoration: none;
+            background-color: var(--secundaria);
+            font-size: 24px;
+            color: var(--principal);
+            font-weight: bold;
+        }
+
+        div.button a:hover {
+            color: var(--secundaria);
+            background-color: var(--principal);
+            border: 2px solid var(--secundaria);
         }
     </style>
 </head>
 <body>
-    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6oIE8i7p5auy4LqS98OuOb%2FResolveA%25C3%25AD%3Fnode-id%3D17%253A77%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A3" allowfullscreen></iframe>
+    <div class="button">
+        <a href="https://www.figma.com/proto/acGWAYI0xt4LLhK09wthjv/ResolveAi?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3">
+            Resolve Aí
+        </a>
+    </div>
 </body>
 </html>
